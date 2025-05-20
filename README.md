@@ -2,7 +2,7 @@
 
 A clean, minimal, and responsive **To-Do List** web application built using **HTML, CSS, and JavaScript**. This project allows you to add and delete tasks with ease and is perfect for beginners who are learning DOM manipulation and UI design.
 
-![To-Do List Screenshot](./screenshot.png)
+<img src="Picture.png" alt="Logo" class="logo" width="400px"/>
 
 ---
 
@@ -28,9 +28,10 @@ The UI includes:
 > Designed for simplicity, usability, and visual appeal.  
 > Based on this layout:
 
-![UI Layout](./screenshot.png)
+🔗 Live Demo
 
----
+👉 View Live Project
+   coming soon..
 
 ## 📂 Technologies Used
 
@@ -52,3 +53,25 @@ git clone https://github.com/rohitmahato/to-do-list.git
 cd to-do-list
 
 # 3. Open index.html in your browser
+
+📂 Folder Structure:
+
+to-do-list/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   │   └── logo.png (optional)
+│   ├── components/
+│   │   └── TodoItem.jsx
+│   │   └── TodoList.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles.css
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── screenshot.png
