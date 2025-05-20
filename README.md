@@ -2,7 +2,8 @@
 
 A clean, minimal, and responsive **To-Do List** web application built using **HTML, CSS, and JavaScript**. This project allows you to add and delete tasks with ease and is perfect for beginners who are learning DOM manipulation and UI design.
 
-<img src="Picture.png" alt="Logo" class="logo" width="400px"/>
+<img src="Picture.png" alt="Logo" class="logo" width="400px" />
+
 
 ---
 
