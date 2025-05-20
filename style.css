@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #666699;
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 150px auto 20px;
+    padding: 40px 30px 70px;
+    /*  creare a box imp */
+    border-radius: 50px;
+    box-shadow: 0 0 30px #000000;
+}
+
+h2 {
+    color: #256d6ff2;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h2 img {
+    width: 40px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 4px groove rgba(4, 4, 4, 0.155);
+    outline-offset: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0px;
+
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    padding: 4px;
+}
+
+input::placeholder {
+    color: #1207b16f;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 15px;
+    padding: 8px 20px;
+    background: rgba(0, 0, 0, 0.822);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 1px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin-block: 10px;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: url('img13.png');
+    background-size: cover;
+    background-position: center;
+    /* Corrected this line */
+    top: 7px;
+    left: 8px;
+}
+
+ul li.checked {
+    background: #3336ec9c;
+    color: rgba(8, 8, 8, 0.836);
+    border-radius: 50px;
+
+}
+
+ul li.checked::before {
+    background: url('checked.png');
+    background-size: cover;
+
+}
+
+ul li span {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: rgba(165, 9, 9, 0.635);
+    color: white;
+}
