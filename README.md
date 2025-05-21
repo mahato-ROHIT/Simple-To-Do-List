@@ -32,7 +32,7 @@ The UI includes:
 🔗 Live Demo
 
 👉 View Live Project
-   coming soon..
+    Go to:https://peaceful-elf-38cfd1.netlify.app
 
 ## 📂 Technologies Used
 
